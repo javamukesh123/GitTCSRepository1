@@ -16,7 +16,7 @@ public class GitHubTLTest {
 		Addition addition = new Addition();
 		System.out.println(addition.add(40, 50));
 		BigNumber bn = new BigNumber();
-		bn.bigDigit(49, 100);
+		System.out.println(bn.bigDigit(49, 100));
 
 	}
 
