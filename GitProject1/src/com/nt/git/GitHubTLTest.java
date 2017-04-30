@@ -1,5 +1,6 @@
 package com.nt.git;
 
+import com.nt.add.Addition;
 import com.nt.big.BigNumber;
 import com.nt.sub.Substraction;
 
@@ -17,6 +18,8 @@ public class GitHubTLTest {
 		System.out.println("Bignumber:"+bn.bigDigit(49, 100));
 		Substraction substraction = new Substraction();
 		System.out.println("Sub:"+substraction.sub(150, 40));
+		Addition addition = new Addition();
+		System.out.println("add"+addition.add(40, 50));
 
 	}
 
