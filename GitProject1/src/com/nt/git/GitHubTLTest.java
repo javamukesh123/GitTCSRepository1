@@ -23,6 +23,7 @@ public class GitHubTLTest {
 		System.out.println("add"+addition.add(40, 50));
 		System.out.println("again confilcts: tl");
 		System.out.println("about mode2Branch2");
+		System.out.println("I have changes in Branch2");
 	}
 
 }
