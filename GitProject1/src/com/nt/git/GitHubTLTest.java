@@ -1,6 +1,7 @@
 package com.nt.git;
 
 import com.nt.big.BigNumber;
+import com.nt.sub.Substraction;
 
 public class GitHubTLTest {
 
@@ -13,7 +14,9 @@ public class GitHubTLTest {
 		System.out.println("welcome to git6-->through TL");
 		System.out.println("Welcome to git7 after coming Dev2--->through TL");
 		BigNumber bn = new BigNumber();
-		System.out.println(bn.bigDigit(49, 100));
+		System.out.println("Bignumber:"+bn.bigDigit(49, 100));
+		Substraction substraction = new Substraction();
+		System.out.println("Sub:"+substraction.sub(150, 40));
 
 	}
 
