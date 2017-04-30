@@ -1,7 +1,6 @@
 package com.nt.git;
 
 import com.nt.big.BigNumber;
-import com.nt.sum.Addition;
 
 public class GitHubTLTest {
 
@@ -13,8 +12,6 @@ public class GitHubTLTest {
 		System.out.println("Welcome to git5-->again changes through Dev1");
 		System.out.println("welcome to git6-->through TL");
 		System.out.println("Welcome to git7 after coming Dev2--->through TL");
-		Addition addition = new Addition();
-		System.out.println(addition.add(40, 50));
 		BigNumber bn = new BigNumber();
 		System.out.println(bn.bigDigit(49, 100));
 
