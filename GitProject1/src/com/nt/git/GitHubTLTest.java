@@ -17,7 +17,7 @@ public class GitHubTLTest {
 		System.out.println("Bignumber:"+bn.bigDigit(49, 100));
 		Substraction substraction = new Substraction();
 		System.out.println("Sub:"+substraction.sub(150, 40));
-		System.out.println("without fetch, and pull Dev2 perform commit operation");
+		System.out.println("without fetch, and pull Dev2 perform commit operation ");
 
 	}
 
